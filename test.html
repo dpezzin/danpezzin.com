@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Dan Pezzin - Contact</title>
+        
+        <link href="/styles/site.css" rel="stylesheet" type="text/css" />
+        <link href="/styles/nav.css" rel="stylesheet" type="text/css" />
+        <link href="/styles/footer.css" rel="stylesheet" type="text/css" />
+        
+        <link href="/styles/pages/test.css" rel="stylesheet" type="text/css" />
+        
+        <link href="/styles/mobile.css" rel="stylesheet" type="text/css" />
+        <link href="/styles/print.css" media="print" rel="stylesheet" type="text/css" />
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript">
+ 
+$(document).ready(function(){
+ $("#msgid").html("Tables:");
+});
+ 
+</script>
+ 
+
+ 
+<div id="msgid">
+</div>
+
+<p>Tables:</p>
+
+<button onClick="myFunction()">Delete</button>
+<a href="/index.html">Table Name</a>
+<script>
+function myFunction() {
+    alert("I am an alert box!");
+}
+</script>
+	</head>
+    <body>        
+        <section class="page-section feedback">
+            <div class="container">
+                <section id="feedback">
+                    <form method="post" action="contact-form-handler.php">
+                        <div class="field">
+							<label for="first-name">Table name:</label>
+							<input type="text" id="first-name" name="FirstName" required="required" autofocus="autofocus"/>
+						</div>
+                        <div class="field actions">
+                            <button type="submit">Create new table</button>
+                        </div>
+                    </form>
+                </section>
+                
+                <section id="feedback-sent">
+                    <h1>Thank you!</h1>
+                </section>
+                <img class="gif" src="/images/gif/arduino4.gif">
+                
+                <p>
+					<a href="http://10.0.0.8/files/unifiedremote.apk"><img alt="Unified Remote"/></a>
+				</p>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            <div class="container">
+                <p>
+                    &#169; 2014 Dan Pezzin
+                </p>
+            </div>
+        </footer>
+
+    </body>
+</html>
+

@@ -1,0 +1,104 @@
+::-moz-selection {
+	background: #2E3A4C;
+	color: #fff;
+}
+::selection {
+	background: #2E3A4C;
+	color: #fff;
+}
+body {
+	border-color: #2E3A4C;
+}
+a, a:link, a:visited,
+#nav li a:visited,
+table th {
+	color: #2E3A4C;
+}
+a.rss,
+a.rss:visited {
+	color: #007abf;
+}
+a:hover,
+a:focus,
+a:active,
+.main a:visited:hover,
+a.rss:hover,
+#nav li a:hover,
+#nav li a.active:hover,
+header #about a:hover,
+header #about a:focus,
+header #about a:active,
+#albums .album .label a:hover {
+	color: #007abf;
+}
+#nav li a.active {
+  color: #9399A4;
+  font-style: italic;
+}
+.spch-bub-inside .point {
+	border-left-color: #2E3A4C;	
+}
+button,
+form input.button,
+.submit input,
+.button,
+.main .button,
+a.rss,
+a.rss:hover,
+a.rss:visited,
+.prev_next a,
+.main .button:visited {
+	background-color: #2E3A4C;
+	color: #fff;
+}
+button:hover,
+button:focus,
+button:active,
+form input.button:hover,
+form input.button:focus,
+form input.button:active,
+.submit input:hover,
+.submit input:focus,
+.submit input:active,
+.button:hover,
+.button:active,
+.main .button:hover,
+.main .button:active,
+.main .button:focus,
+.main .button:visited:hover,
+.prev_next a:hover,
+a.rss:hover,
+a.spch-bub-inside:hover em { 
+	background-color: #007abf;
+}
+a.spch-bub-inside:hover .point {
+  border-left: 0.65em solid #007abf; 
+}
+li.twitter a {
+	background-image: url(../images/icons/twitter-555-16x16.png);
+}
+li.dribbble a {
+	background-image: url(../images/icons/dribbble-555-16.png);
+}
+li.delicious a {
+	background-image: url(../images/icons/delicious-555-16x16.png);
+}
+li.flickr a {
+	background-image: url(../images/icons/flickr-555-16x16.png);
+}
+li.lastfm a {
+	background-image: url(../images/icons/lastfm-555-16x16.png);
+}
+
+@media only screen and (min-width: 960px) {
+  .spch-bub-inside em,
+  .comment-author-admin .comment_meta,
+  .bypostauthor .comment_meta {
+  	background: #2E3A4C;
+  }
+  .comment.comment-author-admin,
+  .comment.bypostauthor,
+  table th {
+  	border-color: #2E3A4C;
+  }
+}

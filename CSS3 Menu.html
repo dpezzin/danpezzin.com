@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>css3menu.com</title>
+		<!-- Start css3menu.com HEAD section -->
+	<link rel="stylesheet" href="CSS3 Menu_files/css3menu1/style.css" type="text/css" /><style type="text/css">._css3m{display:none}</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script type="text/javascript">
+        $(document).ready(function ()
+        {
+            document.getElementById("text").style.visibility="hidden";
+        });
+    </script>
+
+	<!-- End css3menu.com HEAD section -->
+
+	
+</head>
+<body style="background-color:#EBEBEB">
+<!-- Start css3menu.com BODY section -->
+<ul id="css3menu1" class="topmenu">
+<input type="checkbox" id="css3menu-switcher" class="switchbox">
+<label onclick="" class="switch" for="css3menu-switcher"></label>
+	<li id="top" class="topfirst">
+	<button id="top" style="width:54px;" onclick="edit()">Item 0</button>
+	<input type="text" id="text">
+	
+<script>
+function edit() {
+     document.getElementById("top").style.visibility="hidden";
+	 document.getElementById("text").style.visibility="visible";
+}
+</script>
+
+	</li>
+	<li id="top" class="topfirst"><a href="#" style="width:54px;">Item 0</a></li>
+	<li class="topmenu"><a href="#" style="width:54px;"><span>Container</span></a>
+	<ul>
+		<li class="subfirst"><a href="#">Name</a></li>
+		<li><a href="#">Size</a></li>
+		<li><a href="#">Gallons</a></li>
+		<li><a href="#">Proof</a></li>
+	</ul></li>
+	<li class="topmenu"><a href="#" style="width:54px;">Item 2</a></li>
+</ul>
+<div id="msgid">
+</div>
+<!-- End css3menu.com BODY section -->
+</body>
+</html>

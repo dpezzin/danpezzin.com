@@ -1,0 +1,51 @@
+/* Styles for the contact page */
+
+@media screen and (min-width: 1400px){
+.wrapper {
+	padding: 30px 10px 30px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+}
+
+@media screen and (max-width: 1400px){
+.wrapper {
+	padding: 30px 10px 30px;
+	width: 95%;
+	display: block;
+	position: relative;
+}
+}
+
+.page-nav {
+	box-sizing: content-box;
+	width: 95%;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+}
+/*
+.feedback .comments {
+    margin: 1rem 0;
+}
+*/
+.feedback label {
+    display: block;
+}
+
+.feedback textarea {
+    display: block;
+    padding: .5rem; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.feedback button {
+    padding: .5rem;
+}
+	
+.red {
+	color: red;
+	}
+
