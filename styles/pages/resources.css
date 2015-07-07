@@ -26,6 +26,12 @@
 	position: relative;
 }
 
+.photoshop{
+	min-width: 100%;
+	width: 50px;
+	height: auto;
+	}
+
 .resources {
 	list-style-type: none;
 	display: -ms-flexbox;

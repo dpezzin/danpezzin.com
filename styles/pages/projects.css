@@ -1,0 +1,127 @@
+/* Styles for the resources page */
+
+@media screen and (min-width: 1400px) {
+.wrapper {
+ padding: 16px 10px 30px;
+ width: 100%;
+ display: block;
+ position: relative;
+}
+}
+
+@media screen and (max-width: 1400px) {
+.wrapper {
+ padding: 16px 10px 30px;
+ width: 95%;
+ display: block;
+ position: relative;
+}
+}
+
+.page-nav {
+	box-sizing: content-box;
+	width: 95%;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+}
+
+.photoshop{
+	min-width: 100%;
+	width: 50px;
+	height: auto;
+	cursor: pointer;
+	}
+
+.resources {
+	list-style-type: none;
+	display: -ms-flexbox;
+	display: inline-block;
+	font-size: 100%;
+	width: 100%;
+	vertical-align: baseline;
+}
+
+.resource {
+	display: block;
+	margin-bottom: 2.5em;
+	border-bottom: 1px dashed #DDD;
+	list-style: none;
+	float: left;
+	position: relative;
+	width: 950px;
+}
+ @media screen and (min-width: 1000px) {
+.main {
+ width: 700px;
+ box-sizing: content-box;
+ margin: 0px 20px 0px 0px;
+ float: left;
+ font-size: 16px;
+ line-height: 1.5em;
+ overflow: visible;
+ position: relative;
+}
+}
+ @media screen and (max-width: 1000px) {
+.main {
+ width: 100%;
+ box-sizing: content-box;
+ margin: 0px 20px 0px 0px;
+ float: left;
+ font-size: 16px;
+ line-height: 1.5em;
+ overflow: visible;
+ position: relative;
+}
+}
+ @media screen and (min-width: 1000px) {
+.sidebar {
+position: absolute;
+right: 0px;
+top: 0px;
+width: 220px;
+float: none;
+padding-top: 10px;
+list-style: none outside none;
+}
+}
+ @media screen and (max-width: 1000px) {
+.sidebar {
+position: relative;
+bottom: 0px;
+width: 95%;
+float: none;
+padding-top: 10px;
+list-style: none outside none;
+}
+}
+.resources li img {
+	width: 95%;
+	text-align: center;
+	border: 0px solid #888;
+	box-shadow: 1px 2px 12px #888888;
+}
+.title {
+	color: #2E3A4C;
+	font-size: 24px;
+	line-height: 93%;
+	margin-bottom: 0.5em;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+.sidebar h2 {
+	font-size: 30px;
+}
+.sidebar h3 {
+	font-size: 18px;
+}
+
+#footer {
+	box-sizing:content-box;
+	width: 100%;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	bottom: 0px;
+}
